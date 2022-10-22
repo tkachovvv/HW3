@@ -81,6 +81,22 @@ public class Main {
         int daysLosingWeight2 = desiredWeightLoss / weightLossPerDay2;
         System.out.println("Если спортсмен будет терять " + weightLossPerDay1 + " грамм в день, то он сможет похудеть до желаемого веса через " + daysLosingWeight1 + " дней.");
         System.out.println("Если спортсмен будет терять " + weightLossPerDay2 + " грамм в день, то он сможет похудеть до желаемого веса через " + daysLosingWeight2 + " дней.");
+        int mashaOldSalary = 67760;
+        int denisOldSalary = 83690;
+        int christinaOldSalary = 76230;
+        float mashaNewSalaryAYEAR = (mashaOldSalary + (mashaOldSalary * 0.1f)) * 12;
+        float denisNewSalaryAYEAR = (denisOldSalary + (denisOldSalary * 0.1f)) * 12;
+        float christinaNewSalaryAYEAR = (christinaOldSalary + (christinaOldSalary * 0.1f)) * 12;
+        float differenceInSalaryMAYear = mashaNewSalaryAYEAR - mashaOldSalary * 12;
+        float differenceInSalaryDAYer = denisNewSalaryAYEAR - denisOldSalary * 12;
+        float differenceInSalaryCAYear = christinaNewSalaryAYEAR - christinaOldSalary * 12;
+        System.out.println("Маша теперь получает " + mashaNewSalaryAYEAR / 12 + " рублей в месяц. Годовой доход вырос на " + differenceInSalaryMAYear + " рублей.");
+        System.out.println("Денис теперь получает " + denisNewSalaryAYEAR / 12 + " рублей в месяц. Годовой доход вырос на " + differenceInSalaryDAYer + " рублей.");
+        System.out.println("Кристина теперь получает " + christinaNewSalaryAYEAR / 12 + " рублей в месяц. Годовой доход вырос на " + differenceInSalaryCAYear + " рублей.");
+
+
+
+
 
 
 
