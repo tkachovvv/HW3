@@ -74,6 +74,15 @@ public class Main {
         int totalWeightInG = (oneBanana * 5) + (hundredMlMilk * 2) + (oneSundaeCake * 2) + (oneRawEgg * 4);
         float totalWeightInKg = totalWeightInG / 1000f;
         System.out.println("Общий вес спорт-завтрака составляет " + totalWeightInG + " грамм. Вес в кг составляет: " + totalWeightInKg + " кг.");
+        short desiredWeightLoss = 7 * 1000;
+        short weightLossPerDay1 = 250;
+        short weightLossPerDay2 = 500;
+        int daysLosingWeight1 = desiredWeightLoss / weightLossPerDay1;
+        int daysLosingWeight2 = desiredWeightLoss / weightLossPerDay2;
+        System.out.println("Если спортсмен будет терять " + weightLossPerDay1 + " грамм в день, то он сможет похудеть до желаемого веса через " + daysLosingWeight1 + " дней.");
+        System.out.println("Если спортсмен будет терять " + weightLossPerDay2 + " грамм в день, то он сможет похудеть до желаемого веса через " + daysLosingWeight2 + " дней.");
+
+
 
 
 
