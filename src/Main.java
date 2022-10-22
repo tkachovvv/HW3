@@ -51,6 +51,15 @@ public class Main {
         short paper = 480;
         int paperPerStudent = paper / (ludmilasStudents + annasStudents + ekaterinasStudents);
         System.out.println("На каждого ученика рассчитано " + paperPerStudent + " листов бумаги");
+        int bottlesPerMinute = 16/2;
+        System.out.println(bottlesPerMinute);
+        int bottlesPerHour = bottlesPerMinute * 60;
+        int bottlesPerDay = bottlesPerHour * 24;
+        System.out.println("За 20 минут машину произвела бутылок: " + (bottlesPerMinute * 20) + " штук ");
+        System.out.println("За сутки машина произвела бутылок: " + bottlesPerDay + " штук ");
+        System.out.println("За 3 дня машина произвела бутылок: " + (bottlesPerDay * 3) + " штук ");
+        System.out.println("За 1 месяц машина произвела бутылок: " + (bottlesPerDay * 30) + " штук ");
+
 
 
 
