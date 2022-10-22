@@ -45,6 +45,13 @@ public class Main {
         System.out.println(peopleInLasVegas);
         long infinity = 999999999L;
         System.out.println(infinity);
+        byte ludmilasStudents = 23;
+        byte annasStudents = 27;
+        byte ekaterinasStudents = 30;
+        short paper = 480;
+        int paperPerStudent = paper / (ludmilasStudents + annasStudents + ekaterinasStudents);
+        System.out.println("На каждого ученика рассчитано " + paperPerStudent + " листов бумаги");
+
 
 
 
