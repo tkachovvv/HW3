@@ -67,6 +67,14 @@ public class Main {
         int whitePaintTotal = whitePaintPerClass * numberOfClasses;
         int brownPaintTotal = brownPaintPerClass * numberOfClasses;
         System.out.println("В школе, где " + numberOfClasses + " классов, " + "нужно " + whitePaintTotal + " банок белой краски и " + brownPaintTotal + " банок коричневой краски.");
+        short oneBanana = 80;
+        short hundredMlMilk = 105;
+        short oneSundaeCake = 100;
+        short oneRawEgg = 70;
+        int totalWeightInG = (oneBanana * 5) + (hundredMlMilk * 2) + (oneSundaeCake * 2) + (oneRawEgg * 4);
+        float totalWeightInKg = totalWeightInG / 1000f;
+        System.out.println("Общий вес спорт-завтрака составляет " + totalWeightInG + " грамм. Вес в кг составляет: " + totalWeightInKg + " кг.");
+
 
 
 
